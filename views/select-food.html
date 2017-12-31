@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	 <!--Import Bootstrap.css-->
+	<link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+	<!-- tab icon -->
+	<link rel="shortcut icon" href="../assets/img/logo2.jpg" type="image/x-icon">
+	<!--font-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!--Css-->
+	<link rel="stylesheet" href="../css/main.css">
+	<title>Come- Rico</title>
+</head>
+<!-- signup -->
+<body class= "background">
+        <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                  <div class="row navbar-header logo-flex">
+                    <!-- menu hamburguesa - movil -->
+                    <button type="button" class="navbar-toggle  collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <!--logo-->
+                    <a class="navbar-brand" href="#">
+                        <h2 class="title">Come Rico</h2>
+                    </a>
+                  </div>
+              
+                  <!-- Navbar de la derecha y responsive (dispositivo movil)-->
+                  <div class="navbar-collapse navbar-right nav-collapse-list collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px;">
+                    <ul class="nav navbar-nav navbar-right">
+        
+                      <li><a href="#">Inicia sesion</a></li>
+                      <li><a href="#">Promociones</a></li>
+                      
+                    </ul>
+                  </div>
+                </div>
+               </nav>
+
+    <!-- imagen del centro-->
+    <main>
+        <div class="container-fluid food-background">
+            <div class="row ">
+                <div class="col-xs-12">
+                    <div>
+                        <!-- desktop -->
+                        <div class="container-info col-xs-offset-3 col-xs-6 hidden-xs">
+                                <br><br><br>
+                           <div class="text-content">
+                                <img id="logo-food"src="../assets/img/fondo10.jpg" alt="logo" class="img-responsive img-regtangule center-block">
+                           </div>
+                        </div>
+                        <!-- mobile -->
+                        <div class="container-info col-md-offset-4 col-md-6 visible-xs">
+                                <br><br><br><br>
+                                <div class="text-content">
+                                     <img id="logo-food"src="../assets/img/fondo10.jpg" alt="logo" class="img-responsive img-regtangule center-block">
+                                </div>
+                        </div>
+                    </div>
+                        
+                </div>
+                <form >
+                        <input list="browsers" name="browser">
+                        <datalist id="browsers">
+                          <option value="Internet Explorer">
+                          <option value="Firefox">
+                          <option value="Chrome">
+                          <option value="Opera">
+                          <option value="Safari">
+                        </datalist>
+                        <input type="submit" >
+                      </form>
+            </div>
+        </div>
+    </main>
+   
+		
+	
+        
+        <!-- Import jQuery-->
+        <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+        <script src="../js/select-restaurant.js"></script>
+        <!-- bootstrap -->
+        <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
