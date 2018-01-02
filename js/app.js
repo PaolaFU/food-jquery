@@ -3,6 +3,6 @@ $(document).ready(function() {
   $('#title-welcome').fadeToggle(3500);
   /* Despues de unos segundo pasa a la sgt. vista */
   setTimeout(function() {
-    window.location.href = 'views/select-restaurant.html';
+    window.location.href = 'views/select-food.html';
   }, 3000);
 });
