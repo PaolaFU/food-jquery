@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Patua One', cursive;
   }
 
 .container-background{
@@ -21,13 +22,14 @@
 /*Style select-restaurant*/
 /*----------------------------------------------------------------------------------------------*/
 .background{
-    background-color: #F67D1D;
+    background-image: url(http://gowngallery.com/stage/wp-content/uploads/2016/11/gold-and-white-background-light-gold-abstract-background-a87740526b215871.jpg);
 }
 
 .chef {
-    width: 100%;
+    width: 80%;
     height: 40vh;
-    border: 3px solid #f57f17;
+    border: 3px solid #e09e64;
+    
   }
 
   #restaurants-container img {
