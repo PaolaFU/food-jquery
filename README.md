@@ -1,3 +1,13 @@
+# Come rico
+La aplicación Come rico esta diseñada para encontrar restaurantes de forma rápida y amigable de acuerdo con los diferentes gustos. Se filtra por tipo de comida criolla, pastas, pizzas, sushi, vegana y mariscos. 
+
+![image](https://user-images.githubusercontent.com/32306054/36384142-4cc6236e-155c-11e8-9dd6-03a12ec5c7cf.png)
+
+## Desarollado para
+
+[Laboratoria](http://www.laboratoria.la/)
+
+
 # Reto 2: Aplicación Come Rico
 
 ## Objetivo
