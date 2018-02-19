@@ -8,7 +8,7 @@ La aplicación Come rico esta diseñada para encontrar restaurantes de forma rá
 [Laboratoria](http://www.laboratoria.la/)
 
 
-# Reto 2: Aplicación Come Rico
+# Come Rico
 
 ## Objetivo
 
